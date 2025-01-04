@@ -5,9 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="CT.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 
 <body>
+    <h1 id="head">Countdown Timer</h1>
+    <div>
+        <audio src="mixkit-light-rain-loop-2393.wav" id="rain_aud"></audio>
+        <audio src="mixkit-little-birds-singing-in-the-trees-17.wav" id="bird_aud"></audio>
+        <audio src="mixkit-small-waves-harbor-rocks-1208.wav" id="water_audio"></audio>
+        <audio src="mixkit-campfire-night-wind-1736.wav" id="wind_audio"></audio>
+        <audio src="mixkit-marimba-ringtone-1359.wav" , id="tree_audio"></audio>
+    </div>
+    <div class="soundeffects">
+        <!-- <p>rain</p> -->
+        <box-icon name='cloud-light-rain' id="rain_icon"></box-icon>
+        <!-- <p>bird</p> -->
+        <box-icon type='solid' name='leaf' id="bird_icon"></box-icon>
+        <box-icon name='wind' id="wind_icon"></box-icon>
+        <box-icon name='water' id="water_icon"></box-icon>
+        <box-icon name='tree' type='solid' id="tree_icon"></box-icon>
+    </div>
+
+    <p id="screen"></p>
+
+    <div class="others">
+        <input type="number" id="count" placeholder="HR">
+        <input type="number" id="minute" placeholder="MIN">
+        <input type="number" id="second" placeholder="SEC">
+        <button id="start">start</button>
+
+    </div>
+    <div>
+        <audio src="mixkit-classic-alarm-995.wav" id="myaudio"></audio>
+    </div>
+
+
+
+
+
+
     <script src="CT.js"></script>
 </body>
 
